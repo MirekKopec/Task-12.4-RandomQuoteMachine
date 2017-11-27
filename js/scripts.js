@@ -18,7 +18,7 @@ function createTweet(input) {
     }
 
 		var tweetText = "Quote of the day - " + quoteText + " Author: " + quoteAuthor;
-console.log(tweetText)
+//console.log(tweetText)
 
 		if (tweetText.length > 140) {
 		    getQuote();
